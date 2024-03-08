@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Meus Projetos</title>
+    <link rel="stylesheet" href="style.css"> <!-- Vincular o arquivo CSS -->
+</head>
+<body>
+    <header>
+        <h1>Meus Projetos</h1>
+    </header>
+    <div class="container-projetos">
+        <div class="projeto">
+            <img src="https://app.viafacil.com.br/vpnew/jsp/img/topo_termo_wu_80c05e8d4e37d7497d3cc5f5213edddc.png" alt="Automação da emissão do Vale Pedágio">
+            <h2><a href="pagina-da-automacao.html">Vale Pedágio automático</a></h2>
+            <!-- Botão para abrir o pop-up -->
+            <button onclick="abrirPopup()">Mais informações</button>
+            <!-- O Pop-up -->
+            <div id="meuPopup" class="popup">
+                <!-- Conteúdo do Pop-up -->
+                <div class="popup-conteudo">
+                    <span class="fechar" onclick="fecharPopup()">&times;</span>
+                    <p>O Vale-Pedágio é obrigatório no exercício de atividade de transporte rodoviário de carga, realizado por transportador inscrito no Registro Nacional de Transportadores Rodoviários de Carga – RNTRC, por conta de terceiros e mediante remuneração, no deslocamento de cargas por meio de transporte rodoviário nas rodovias.</p>
+                    <p>O pagamento do pedágio, por veículos de carga, é de responsabilidade do contratante, conforme definição do artigo...</p>
+                </div>
+            </div>
+            <p>Preenchimento automático do vale pedágio utilizando python.</p>
+        </div>
+
+        <div class="projeto">
+            <img src="https://nordware.io/blog/wp-content/uploads/2021/06/shutterstock_1262757307_Easy-Resize.com_-1.jpg" alt="Automação da emissão de Notas Fiscais">
+            <h2>Automação SAP</h2>
+            <p>Preenchimento automático de notas fiscais.</p>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Sócrates Luiz dos Santos</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+
+</html>

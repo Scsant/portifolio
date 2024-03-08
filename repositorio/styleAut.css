@@ -1,0 +1,71 @@
+body {
+    background-color: #0a0f1b; /* Definir a cor de fundo para azul escuro */
+    color: white; /* Definir a cor do texto para branco */
+    font-family: Arial, sans-serif; /* Definir a família de fontes */
+}
+
+h1, h2 {
+    background-color: #162a47; /* Definir a cor de fundo dos títulos para um azul mais claro */
+    color: white; /* Definir a cor do texto para branco */
+    padding: 10px; /* Adicionar preenchimento ao redor dos títulos */
+    border-radius: 5px; /* Adicionar bordas arredondadas aos títulos */
+    margin: 20px 0; /* Adicionar margem acima e abaixo dos títulos */
+}
+
+h1:hover, h2:hover {
+    background-color: #06b7ce15; /* Altera a cor de fundo para dourado */
+    cursor: pointer; /* Muda o cursor para o tipo 'pointer' para indicar que é clicável */
+    transition: background-color 0.3s ease; /* Adiciona uma transição suave para a cor de fundo */
+}
+
+.back-to-portfolio {
+    color: #f0e68c; /* Define a cor do link */
+    text-decoration: none; /* Remove o sublinhado do link */
+}
+
+.back-to-portfolio:hover {
+    color: #ffd700; /* Cor do link quando o mouse está sobre ele */
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse, se desejar */
+}
+
+.back-to-portfolio:hover {
+    font-size: 1.05em; /* Aumenta o tamanho do texto */
+    transition: font-size 0.4s ease; /* Adiciona uma transição suave para o tamanho da fonte */
+}
+
+.main-container {
+    width: 90%; /* ou uma largura específica que você preferir */
+    max-width: 1200px; /* Ajuste conforme necessário */
+    margin: 0 auto; /* Isso centraliza o contêiner na página */
+    padding: 20px; /* Adiciona um pouco de espaço interno */
+}
+
+body {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1200px;
+}
+
+article .wide-image {
+    width: 50%; /* Aumenta a largura da imagem */
+    height: auto; /* Mantém a proporção da altura da imagem */
+    display: block; /* Assegura que a imagem não fique inline */
+    margin-left: auto; /* Centraliza a imagem horizontalmente */
+    margin-right: auto; /* Centraliza a imagem horizontalmente */
+}
+
+.hover-image {
+    transition: transform 0.3s ease; /* Adiciona uma transição suave */
+}
+
+.hover-image:hover {
+    transform: scale(1.1); /* Aumenta a imagem em 10% */
+}
+
+ 
+
+    
+
+
+
+/* Adicione mais estilos conforme necessário */
