@@ -1,3 +1,19 @@
+@media screen and (max-width: 600px) {
+    /* Coloque seus estilos CSS para dispositivos móveis aqui */
+    .container-projetos {
+        flex-direction: column;
+    }
+
+    .projeto {
+        margin-bottom: 20px;
+    }
+
+    header, footer {
+        text-align: center;
+    }
+}
+
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
